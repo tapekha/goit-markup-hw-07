@@ -19,3 +19,59 @@ p {
   margin-top: 0;
   margin-bottom: 0;
 }
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.section__title {
+  margin-bottom: 50px;
+
+  @include font(36px, 1.17, 0.03em);
+
+  text-align: center;
+
+  color: var(--second-text-color);
+}
+
+.hero__button {
+  display: inline-block;
+  padding: 10px 32px;
+  min-width: 200px;
+
+  @include font(16px, 1.87, 0.06em);
+
+  cursor: pointer;
+  align-items: center;
+  text-align: center;
+
+  border: 0;
+  border-radius: 4px;
+  background-color: var(--akcent-text-color);
+  color: var(--white-text-color);
+}
