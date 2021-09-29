@@ -1,77 +1,24 @@
-:root {
-  --first-text-color: #757575;
-  --second-text-color: #212121;
-  --akcent-text-color: #2196f3;
-  --white-text-color: #ffffff;
-  --border-color: #eeeeee;
-}
-
-body {
-  font-family: Roboto, sans-serif;
-  background-color: FFFFFF;
-  color: var(--first-text-color);
-}
-
-h1,
-h2,
-h3,
-p {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-ul {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
-  list-style: none;
-}
-
-img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-.link {
-  text-decoration: none;
-}
-
-.container {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
-}
-
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-.section__title {
-  margin-bottom: 50px;
-
-  @include font(36px, 1.17, 0.03em);
-
-  text-align: center;
-
-  color: var(--second-text-color);
-}
-
-.hero__button {
-  display: inline-block;
-  padding: 10px 32px;
-  min-width: 200px;
-
-  @include font(16px, 1.87, 0.06em);
-
-  cursor: pointer;
-  align-items: center;
-  text-align: center;
-
-  border: 0;
-  border-radius: 4px;
-  background-color: var(--akcent-text-color);
-  color: var(--white-text-color);
-}
+@import './utils/variables';
+@import './base/reset';
+@import './base/container';
+@import './utils/mixins';
+@import './base/section';
+@import './utils/hidden';
+@import './layout/header';
+@import './components/logo';
+@import './layout/site-nav';
+@import './layout/site-nav-contacts';
+@import './layout/hero';
+@import './components/hero-button';
+@import './layout/ability';
+@import './layout/work';
+@import './layout/members';
+@import './components/members-socials';
+@import './layout/clients';
+@import './layout/footer';
+@import './layout/footer-address';
+@import './layout/footer-socials';
+@import './layout/footer-newsletter';
+@import './pages/portfolio';
+@import './pages/portfolio-filter';
+@import './components/modal';

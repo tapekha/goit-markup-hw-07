@@ -1,0 +1,11 @@
+.header .container {
+  display: flex;
+}
+
+.header {
+  border-bottom: 1px solid #ececec;
+}
+
+.header-navigation {
+  @include center;
+}
