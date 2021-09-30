@@ -10,6 +10,7 @@ body {
   font-family: Roboto, sans-serif;
   background-color: FFFFFF;
   color: var(--first-text-color);
+  margin: 0;
 }
 
 h1,
