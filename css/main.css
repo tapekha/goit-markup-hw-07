@@ -310,6 +310,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: uppercase;
+  font-weight: 500;
   color: var(--white-text-color);
 }
 
@@ -457,6 +458,7 @@ img {
   font-weight: 0.03em;
   letter-spacing: 0.02em;
   color: var(--white-text-color);
+  font-style: normal;
 }
 
 .address-contacts-item {
@@ -684,6 +686,9 @@ img {
   line-height: 1.62;
   font-weight: 500;
   letter-spacing: 0.03em;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
   text-align: center;
   color: var(--second-text-color);
   cursor: pointer;
